@@ -63,6 +63,8 @@ namespace double_linked_list
              * Current will point to those nodes
             * between which the new node is to be inserted*/
 
+            newNode.next = current;
+            newNode.prev = previous;
             
 
         }
