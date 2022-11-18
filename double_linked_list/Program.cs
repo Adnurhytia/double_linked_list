@@ -176,7 +176,7 @@ namespace double_linked_list
 
                         case '2':
                             {
-                                if (obj.listEmpty))
+                                if (obj.listEmpty())
                                 {
                                     Console.WriteLine("\nList is empty");
                                     break;
